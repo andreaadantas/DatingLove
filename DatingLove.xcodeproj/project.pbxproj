@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3AEA8D625EEDD0000B62B41 /* DatingLove WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C3AEA8D525EEDD0000B62B41 /* DatingLove WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C3AEA8DB25EEDD0200B62B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3AEA8DA25EEDD0200B62B41 /* Assets.xcassets */; };
+		C3AEA8E225EEDD0200B62B41 /* DatingLove WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C3AEA8E125EEDD0200B62B41 /* DatingLove WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C3AEA8E725EEDD0200B62B41 /* DatingLoveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AEA8E625EEDD0200B62B41 /* DatingLoveApp.swift */; };
+		C3AEA8E925EEDD0200B62B41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AEA8E825EEDD0200B62B41 /* ContentView.swift */; };
+		C3AEA8EB25EEDD0200B62B41 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AEA8EA25EEDD0200B62B41 /* NotificationController.swift */; };
+		C3AEA8ED25EEDD0200B62B41 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AEA8EC25EEDD0200B62B41 /* NotificationView.swift */; };
+		C3AEA8EF25EEDD0200B62B41 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AEA8EE25EEDD0200B62B41 /* ComplicationController.swift */; };
+		C3AEA8F125EEDD0200B62B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3AEA8F025EEDD0200B62B41 /* Assets.xcassets */; };
+		C3AEA8F425EEDD0200B62B41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3AEA8F325EEDD0200B62B41 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3AEA8D725EEDD0000B62B41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AEA8CB25EEDD0000B62B41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3AEA8D425EEDD0000B62B41;
+			remoteInfo = "DatingLove WatchKit App";
+		};
+		C3AEA8E325EEDD0200B62B41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AEA8CB25EEDD0000B62B41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3AEA8E025EEDD0200B62B41;
+			remoteInfo = "DatingLove WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3AEA8FC25EEDD0200B62B41 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C3AEA8E225EEDD0200B62B41 /* DatingLove WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AEA90025EEDD0200B62B41 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C3AEA8D625EEDD0000B62B41 /* DatingLove WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C3AEA8D125EEDD0000B62B41 /* DatingLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AEA8D525EEDD0000B62B41 /* DatingLove WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DatingLove WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AEA8DA25EEDD0200B62B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3AEA8DC25EEDD0200B62B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3AEA8E125EEDD0200B62B41 /* DatingLove WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DatingLove WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AEA8E625EEDD0200B62B41 /* DatingLoveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingLoveApp.swift; sourceTree = "<group>"; };
+		C3AEA8E825EEDD0200B62B41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C3AEA8EA25EEDD0200B62B41 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C3AEA8EC25EEDD0200B62B41 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		C3AEA8EE25EEDD0200B62B41 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C3AEA8F025EEDD0200B62B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3AEA8F325EEDD0200B62B41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3AEA8F525EEDD0200B62B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3AEA8F625EEDD0200B62B41 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3AEA8DE25EEDD0200B62B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3AEA8CA25EEDD0000B62B41 = {
+			isa = PBXGroup;
+			children = (
+				C3AEA8D925EEDD0000B62B41 /* DatingLove WatchKit App */,
+				C3AEA8E525EEDD0200B62B41 /* DatingLove WatchKit Extension */,
+				C3AEA8D225EEDD0000B62B41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3AEA8D225EEDD0000B62B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3AEA8D125EEDD0000B62B41 /* DatingLove.app */,
+				C3AEA8D525EEDD0000B62B41 /* DatingLove WatchKit App.app */,
+				C3AEA8E125EEDD0200B62B41 /* DatingLove WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3AEA8D925EEDD0000B62B41 /* DatingLove WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C3AEA8DA25EEDD0200B62B41 /* Assets.xcassets */,
+				C3AEA8DC25EEDD0200B62B41 /* Info.plist */,
+			);
+			path = "DatingLove WatchKit App";
+			sourceTree = "<group>";
+		};
+		C3AEA8E525EEDD0200B62B41 /* DatingLove WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C3AEA8E625EEDD0200B62B41 /* DatingLoveApp.swift */,
+				C3AEA8E825EEDD0200B62B41 /* ContentView.swift */,
+				C3AEA8EA25EEDD0200B62B41 /* NotificationController.swift */,
+				C3AEA8EC25EEDD0200B62B41 /* NotificationView.swift */,
+				C3AEA8EE25EEDD0200B62B41 /* ComplicationController.swift */,
+				C3AEA8F025EEDD0200B62B41 /* Assets.xcassets */,
+				C3AEA8F525EEDD0200B62B41 /* Info.plist */,
+				C3AEA8F625EEDD0200B62B41 /* PushNotificationPayload.apns */,
+				C3AEA8F225EEDD0200B62B41 /* Preview Content */,
+			);
+			path = "DatingLove WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C3AEA8F225EEDD0200B62B41 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C3AEA8F325EEDD0200B62B41 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3AEA8D025EEDD0000B62B41 /* DatingLove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3AEA90125EEDD0200B62B41 /* Build configuration list for PBXNativeTarget "DatingLove" */;
+			buildPhases = (
+				C3AEA8CF25EEDD0000B62B41 /* Resources */,
+				C3AEA90025EEDD0200B62B41 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3AEA8D825EEDD0000B62B41 /* PBXTargetDependency */,
+			);
+			name = DatingLove;
+			productName = DatingLove;
+			productReference = C3AEA8D125EEDD0000B62B41 /* DatingLove.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C3AEA8D425EEDD0000B62B41 /* DatingLove WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3AEA8FD25EEDD0200B62B41 /* Build configuration list for PBXNativeTarget "DatingLove WatchKit App" */;
+			buildPhases = (
+				C3AEA8D325EEDD0000B62B41 /* Resources */,
+				C3AEA8FC25EEDD0200B62B41 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3AEA8E425EEDD0200B62B41 /* PBXTargetDependency */,
+			);
+			name = "DatingLove WatchKit App";
+			productName = "DatingLove WatchKit App";
+			productReference = C3AEA8D525EEDD0000B62B41 /* DatingLove WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C3AEA8E025EEDD0200B62B41 /* DatingLove WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3AEA8F925EEDD0200B62B41 /* Build configuration list for PBXNativeTarget "DatingLove WatchKit Extension" */;
+			buildPhases = (
+				C3AEA8DD25EEDD0200B62B41 /* Sources */,
+				C3AEA8DE25EEDD0200B62B41 /* Frameworks */,
+				C3AEA8DF25EEDD0200B62B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DatingLove WatchKit Extension";
+			productName = "DatingLove WatchKit Extension";
+			productReference = C3AEA8E125EEDD0200B62B41 /* DatingLove WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3AEA8CB25EEDD0000B62B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C3AEA8D025EEDD0000B62B41 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C3AEA8D425EEDD0000B62B41 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C3AEA8E025EEDD0200B62B41 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C3AEA8CE25EEDD0000B62B41 /* Build configuration list for PBXProject "DatingLove" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3AEA8CA25EEDD0000B62B41;
+			productRefGroup = C3AEA8D225EEDD0000B62B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3AEA8D025EEDD0000B62B41 /* DatingLove */,
+				C3AEA8D425EEDD0000B62B41 /* DatingLove WatchKit App */,
+				C3AEA8E025EEDD0200B62B41 /* DatingLove WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3AEA8CF25EEDD0000B62B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AEA8D325EEDD0000B62B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AEA8DB25EEDD0200B62B41 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AEA8DF25EEDD0200B62B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AEA8F425EEDD0200B62B41 /* Preview Assets.xcassets in Resources */,
+				C3AEA8F125EEDD0200B62B41 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3AEA8DD25EEDD0200B62B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AEA8EB25EEDD0200B62B41 /* NotificationController.swift in Sources */,
+				C3AEA8E925EEDD0200B62B41 /* ContentView.swift in Sources */,
+				C3AEA8EF25EEDD0200B62B41 /* ComplicationController.swift in Sources */,
+				C3AEA8E725EEDD0200B62B41 /* DatingLoveApp.swift in Sources */,
+				C3AEA8ED25EEDD0200B62B41 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3AEA8D825EEDD0000B62B41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3AEA8D425EEDD0000B62B41 /* DatingLove WatchKit App */;
+			targetProxy = C3AEA8D725EEDD0000B62B41 /* PBXContainerItemProxy */;
+		};
+		C3AEA8E425EEDD0200B62B41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3AEA8E025EEDD0200B62B41 /* DatingLove WatchKit Extension */;
+			targetProxy = C3AEA8E325EEDD0200B62B41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3AEA8F725EEDD0200B62B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3AEA8F825EEDD0200B62B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3AEA8FA25EEDD0200B62B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DatingLove WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 88LW56X3Q3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DatingLove WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appledeveloperacademy.DatingLove.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		C3AEA8FB25EEDD0200B62B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DatingLove WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 88LW56X3Q3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DatingLove WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appledeveloperacademy.DatingLove.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		C3AEA8FE25EEDD0200B62B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88LW56X3Q3;
+				IBSC_MODULE = DatingLove_WatchKit_Extension;
+				INFOPLIST_FILE = "DatingLove WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appledeveloperacademy.DatingLove.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		C3AEA8FF25EEDD0200B62B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88LW56X3Q3;
+				IBSC_MODULE = DatingLove_WatchKit_Extension;
+				INFOPLIST_FILE = "DatingLove WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appledeveloperacademy.DatingLove.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		C3AEA90225EEDD0200B62B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88LW56X3Q3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appledeveloperacademy.DatingLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C3AEA90325EEDD0200B62B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88LW56X3Q3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appledeveloperacademy.DatingLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3AEA8CE25EEDD0000B62B41 /* Build configuration list for PBXProject "DatingLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AEA8F725EEDD0200B62B41 /* Debug */,
+				C3AEA8F825EEDD0200B62B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3AEA8F925EEDD0200B62B41 /* Build configuration list for PBXNativeTarget "DatingLove WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AEA8FA25EEDD0200B62B41 /* Debug */,
+				C3AEA8FB25EEDD0200B62B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3AEA8FD25EEDD0200B62B41 /* Build configuration list for PBXNativeTarget "DatingLove WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AEA8FE25EEDD0200B62B41 /* Debug */,
+				C3AEA8FF25EEDD0200B62B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3AEA90125EEDD0200B62B41 /* Build configuration list for PBXNativeTarget "DatingLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AEA90225EEDD0200B62B41 /* Debug */,
+				C3AEA90325EEDD0200B62B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3AEA8CB25EEDD0000B62B41 /* Project object */;
+}
